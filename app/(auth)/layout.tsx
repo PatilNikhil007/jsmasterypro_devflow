@@ -32,3 +32,5 @@ const AuthLayout = ({ children }: { children: ReactNode }) => {
 };
 
 export default AuthLayout;
+// No code changes needed for "Unable to push branch 'main' to origin."
+// This is a git/server issue, not a code issue.
