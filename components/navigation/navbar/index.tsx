@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import Theme from "./Theme";
+import MobileNavigation from "./MobileNavigation";
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-16 gap-5 fixed shadow-light-300 dark:shadow-none bg-light900_dark200 flex-between items-center px-4">
+    <nav className="w-full h-16 gap-5 fixed top-0 shadow-light-300 dark:shadow-none bg-light900_dark200 flex-between items-center px-4">
       <Link href="/" className="flex items-center gap-1">
         <Image
           src="/images/site-logo.svg"
@@ -20,6 +21,7 @@ const Navbar = () => {
       <p>Global Search</p>
       <div className="flex-between gap-5">
         <Theme />
+        <MobileNavigation />
       </div>
     </nav>
   );

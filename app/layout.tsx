@@ -7,6 +7,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { auth } from "@/auth";
 import { SessionProvider } from "next-auth/react";
 import { ReactNode } from "react";
+import LeftSidebar from "@/components/navigation/LeftSidebar";
 
 const inter = localFont({
   src: "./fonts/Inter.ttf",
